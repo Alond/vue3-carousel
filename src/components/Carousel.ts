@@ -302,7 +302,7 @@ export default defineComponent({
       (): ElementStyleObject => {
         const xScroll = dragged.x - slidesToScroll.value * slideWidth.value;
         return {
-          transform: `translateX(${xScroll}px)`,
+          //transform: `translateX(${xScroll}px)`,
           transition: `${isSliding.value ? config.transition : 0}ms`,
         };
       }
